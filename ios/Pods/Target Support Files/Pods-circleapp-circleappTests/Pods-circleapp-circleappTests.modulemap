@@ -1,0 +1,6 @@
+module Pods_circleapp_circleappTests {
+  umbrella header "Pods-circleapp-circleappTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
