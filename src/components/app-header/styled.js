@@ -11,6 +11,7 @@ export const HeaderText = styled.Text`
   font-size: 20px;
   margin-left: 100px;
   font-weight: bold;
+  font-family: ${Platform.select({ ios: 'SFProDisplay-Regular', android: 'Inter-Regular' })};
 `;
 
 export const ImageWrapper = styled.Image`
